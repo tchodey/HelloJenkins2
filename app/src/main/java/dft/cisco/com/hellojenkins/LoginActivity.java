@@ -174,7 +174,8 @@ public class LoginActivity extends PlusBaseActivity implements LoaderCallbacks<C
     }
     private boolean isEmailValid(String email) {
         //TODO: Replace this with your own logic
-        System.out.println("Hello");
+        System.out.println("Hello world");
+
         return email.contains("@");
     }
 
