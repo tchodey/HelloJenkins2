@@ -12,6 +12,7 @@ public class HelloJenkinsActivity extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_hello_jenkins);
+        System.out.println("Hello Jenkins");
     }
 
 
